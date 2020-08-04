@@ -1,0 +1,76 @@
+/**
+*去掉默认焦点边框
+*/
+#chatlist:focused {
+  -fx-padding:0;
+  -fx-background-insets: 0;
+}
+#chatlist {
+  -fx-background-color: #f1eeec;
+  -fx-background-insets: 0;
+  -fx-padding:0;
+}
+
+/**
+*设置上下边框
+*/
+#msglist {
+ -fx-background-color:   #f8f8f9;
+-fx-padding: 1 0 1 0; /* 0.083333em; */
+}
+
+
+/**
+*焦点及悬停后单元格的背景颜色调整
+*/
+#chatlist .list-cell{
+ -fx-background-color: #f1eeec;
+}
+#chatlist .list-cell:empty:hover {
+    -fx-background-color: #f1eeec;
+}
+
+#chatlist:focused .list-cell:filled:focused:selected {
+    -fx-background-color: #c1bfbe;
+}
+#chatlist:hover .list-cell:hover{
+    -fx-background-color: #e2e2e1;
+}
+
+
+/**
+*单元格的背景颜色调整
+*/
+#msglist  .list-cell{
+ -fx-background-color:   #f8f8f9;
+}
+
+/**
+*去掉默认焦点边框
+*/
+.button {
+  -fx-background-insets: 0;
+}
+
+/**
+*去掉默认焦点边框
+*/
+.text-area{
+    -fx-background-insets: 0;
+    -fx-background-color: transparent, white, transparent, white;
+}
+
+.text-area .content {
+    -fx-background-color: transparent, white, transparent, white;
+}
+
+.text-area:focused {
+    -fx-background-color: transparent, white, transparent, white;
+}
+
+
+
+
+
+
+
